@@ -16,7 +16,7 @@
                 {{#each burgers}}
                     {{#unless devoured}}
                         <p>
-                            {{burger_name}}
+                            {{name}}
                         </p>
                         <button class="change-eaten" data-id="{{id}}">
                             Consume the burger.
@@ -30,7 +30,7 @@
                 {{#each burgers}}
                     {{#if devoured}}
                         <p>
-                            {{burger_name}}
+                            {{name}}
                         </p>
                     {{/if}}
                 {{/each}}
